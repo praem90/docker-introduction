@@ -1,5 +1,16 @@
 # Docker
 
+## Topics
+ * What is Docker?
+ * Why do we need Docker?
+ * Key components of a Docker
+ * Image
+ * Container
+ * Network
+ * Volume
+
+---
+
 ## What is Docker?
  - Docker is an open-source software platform that enables developers to build, deploy, run, update, and manage containers.
  - Docker uses OS-level virtualization to deliver software in packages called containers.
@@ -13,6 +24,12 @@
  - Docker's container-based platform allows for highly portable workloads.
  - Docker containers can run on a developer's local laptop, on physical or virtual machines in a data center, on cloud providers, or in a mixture of environments.
  - Docker's portability and lightweight nature also make it easy to dynamically manage workloads, scaling up or tearing down applications and services as business needs dictate, in near real time.
+
+---
+
+## Questions
+
+ Any questions?
 
 ---
 
@@ -56,6 +73,12 @@ An image is like a class. It is just a blueprint with set of instructions to cre
 ```bash
  docker run bash:latest bash -c "date > file.txt && cat file.txt"
 ```
+
+---
+
+## Questions
+
+ Any Questions?
 
 ---
 
@@ -134,3 +157,9 @@ docker run --network=bridge bash bash -c "wget http://ip_address_of_the_nginx_co
  ```
  Now you can see the files in this host folder will be available in the containers `/app` directory and vice versa.
  There are different types of volume and different ways to mount a volume to a container.
+
+ ---
+
+## Questions
+
+ Any Questions?
